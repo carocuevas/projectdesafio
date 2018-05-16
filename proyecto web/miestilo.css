@@ -1,0 +1,27 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	background-image: url("img/curls.png");
+}
+p{
+	color: #cccccc;
+	text-align: center;
+}
+h1{
+	font-family: Verdana, serif;
+}
+#logo{
+	height: 100px;
+}
+.extra-grande {
+	font-size: 20px;
+}
+ul.navbar{
+   list-style-type:none;
+   background-color: white;
+   background-image: url("img/intersection.png");
+   height: 200px;
+}
+ul.navbar li{
+	float: left; padding: 50px;
+}

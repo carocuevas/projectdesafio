@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es-ES"> 
+<head profile="http://gmpg.org/xfn/11"> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<title>Smart3D - Demo</title> 
+<link rel="shortcut icon" href="http://www.seballero.com/favicon.ico" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jcarousel.js"></script>
+ <script type="text/javascript">
+function mycarousel_initCallback(carousel) {
+	
+    jQuery('#forw').bind('click', function() {
+        carousel.next();
+        return false;
+    });
+
+    jQuery('#prev').bind('click', function() {
+        carousel.prev();
+        return false;
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery("#carrusel").jcarousel({
+       scroll :1,
+	   auto: 3,
+       wrap : "both",
+       initCallback: mycarousel_initCallback,
+	     buttonNextHTML: null,
+        buttonPrevHTML: null
+	   });
+ });
+        </script>
+</head>
+
+
+<body id="demo">
+<div id="wrap">
+<a id="prev" href="#">&lt;</a><a id="forw" href="#">&gt;</a>
+<ul id="carrusel">
+    <li><img src="http://farm3.static.flickr.com/2267/2067440740_dc5a27c7af_z.jpg?zz=1" /></li>
+    <li><img src="http://farm3.static.flickr.com/2060/2067440172_a378297bfb_z.jpg?zz=1" /></li>
+    <li><img src="http://farm3.static.flickr.com/2019/2066641497_4bf621e1a5_z.jpg?zz=1" /></li>
+    <li><img src="http://farm3.static.flickr.com/2252/2066595607_03f9c04d37_b.jpg" /></li>
+    <li><img src="http://farm3.static.flickr.com/2059/2066594223_d87b4a10e1_z.jpg?zz=1" /></li>
+    <li><img src="http://farm3.static.flickr.com/2309/2066593657_cb96aaa9e9_z.jpg?zz=1" /></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-10543081-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</body>
+</html>
