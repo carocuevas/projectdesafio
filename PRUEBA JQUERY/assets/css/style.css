@@ -1,0 +1,88 @@
+body{
+	background-color: #a9dff6;
+	margin: 0px;
+}
+header{
+	background-color: #204681;
+	height: 100px;
+	margin-bottom: 20px;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: 'Song Myung', serif;
+	margin: 0px;
+	padding-top: 20px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+h2{
+	color: #204681;
+	text-align: center;
+	font-family: 'Song Myung', serif;
+	margin: 0px;
+	padding: 15px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+.tweet__text{
+	
+}
+.form-control{
+	width: 40vw;
+	float: left;
+}
+.form-group{
+	margin: 30px;
+}
+label {
+	text-align: center;
+	font-family: 'Song Myung', serif;
+}
+.add_tweet{
+	padding: 5px 0;
+	position: absolute;
+	bottom: 0;
+	font-size: 1em;
+}
+.col-md-6{
+	background-color: rgba(255,255,255,.20);
+	margin: 10px;
+	height: 70vh;
+	width: 48vw;
+}
+.add__tweet__like{
+	color: grey;
+}
+.add__tweet__like--clicked{
+	color: #204681;
+}
+.add__tweet__remove{
+	color: grey;
+}
+.add__tweet__remove--clicked{
+	color: #204681;
+}
+label{
+	float:left;
+	clear: both;
+	text-align: center;
+	margin: auto;
+	font-weight: lighter;
+}
+.btn-primary{
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin: 20px;
+	margin-left: 7vw;
+}
+.tweet__tweets{
+	margin: 30px;
+}
+ul{
+	list-style-type: none;
+}
+p{
+	display: inline;
+}
